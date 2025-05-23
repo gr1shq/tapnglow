@@ -4,7 +4,6 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
-import Header from '../(components)/Header';
 import { useState } from 'react';
 
 export default function Contact() {
