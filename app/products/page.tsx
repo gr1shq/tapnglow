@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import Header from '../(components)/Header';
 import products from '../../data/products.json';
 
 // Define TypeScript interface for product data
