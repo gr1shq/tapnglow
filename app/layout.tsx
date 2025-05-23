@@ -1,17 +1,20 @@
+// app/layout.tsx
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Poppins, Inter } from 'next/font/google';
 import './globals.css';
 import Header from './(components)/Header';
 import Footer from './(components)/Footer';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const poppins = Poppins({
+  variable: '--font-poppins',
   subsets: ['latin'],
+  weight: ['400', '600', '700'], // Regular, Semi-bold, Bold for headings/buttons
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
+  weight: ['400', '500'], // Regular, Medium for body text
 });
 
 export const metadata: Metadata = {
@@ -52,7 +55,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
+      <body
+        className={`${poppins.variable} ${inter.variable} font-inter antialiased min-h-screen flex flex-col`}
+      >
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

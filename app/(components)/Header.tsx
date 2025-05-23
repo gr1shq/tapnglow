@@ -17,6 +17,16 @@ export default function Header() {
     { name: 'Contact', href: '/contact' },
   ];
 
+  // Animation for logo letters
+  const logoVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: (i: number) => ({
+      opacity: 1,
+      scale: 1,
+      transition: { delay: i * 0.1, duration: 0.3 },
+    }),
+  };
+
   return (
     <>
       {/* Desktop Header */}
@@ -30,10 +40,24 @@ export default function Header() {
           <div className="flex justify-between items-center py-3">
             {/* Logo */}
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-extrabold text-[#F28C82] tracking-tight">
-                T<span className="text-[#FFD1C1]">ap</span>
-              </span>
-              <span className="text-2xl font-bold text-[#FFD1C1]">NGlow</span>
+              <motion.span
+                className="text-2xl sm:text-3xl font-poppins font-bold text-[var(--primary)]"
+                variants={logoVariants}
+                initial="hidden"
+                animate="visible"
+                custom={0}
+              >
+                Tap
+              </motion.span>
+              <motion.span
+                className="text-2xl sm:text-3xl font-poppins font-bold text-[var(--foreground)]"
+                variants={logoVariants}
+                initial="hidden"
+                animate="visible"
+                custom={1}
+              >
+                NGlow
+              </motion.span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -43,7 +67,7 @@ export default function Header() {
                   <li key={item.name}>
                     <Link
                       href={item.href}
-                      className="text-sm font-medium text-[#374151] hover:text-[#F28C82] transition-colors duration-200"
+                      className="text-sm font-poppins font-medium text-[#374151] hover:text-[#F28C82] transition-colors duration-200"
                     >
                       {item.name}
                     </Link>
@@ -91,7 +115,7 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-lg font-medium text-[#374151] hover:text-[#F28C82] transition-colors py-1"
+              className="text-lg font-poppins font-medium text-[#374151] hover:text-[#F28C82] transition-colors py-1"
               onClick={() => setIsOpen(false)}
             >
               {item.name}
