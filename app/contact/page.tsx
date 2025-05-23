@@ -4,11 +4,8 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Link from 'next/link';
-import { useState } from 'react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [status, setStatus] = useState('');
 
   const socials = [
     {
@@ -47,18 +44,6 @@ export default function Contact() {
       ),
     },
   ];
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) {
-      setStatus('Please fill out all fields.');
-      return;
-    }
-    // Placeholder for email submission (e.g., EmailJS or backend API)
-    setStatus('Thank you! Your message has been sent.');
-    setFormData({ name: '', email: '', message: '' });
-    // TODO: Integrate EmailJS or backend (see notes below)
-  };
 
   return (
     <div className="bg-[#FFFFFF] min-h-screen">
