@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Glowing Moon Lamp",
+      "description": "Illuminate your space with this stunning moon lamp for a cozy vibe.",
+      "defaultImage": "/products/moon-lamp.webp",
+      "hoverImage": "/products/moon-lamp2.webp",
+      "temuLink": "https://temu.to/k/eimeard2tsd",
+      "tags": ["lamp", "decor"]
+    },
+    {
+      "id": 2,
+      "title": "Women's Stylish Shoulder Bag",
+      "description": "Elevate your look with this chic, versatile shoulder bag, perfect for any occasion.",
+      "defaultImage": "/products/women-bag.webp",
+      "hoverImage": "/products/women-bag2.webp",
+      "temuLink": "https://temu.to/k/evv2k99nsby",
+      "tags": ["bag", "shoulder bag", "fashion", "accessory"]
+    },
+    {
+      "id": 3,
+      "title": "Simple Crystal Necklace",
+      "description": "A classic necklace with a crystal pendant, perfect for everyday wear.",
+      "defaultImage": "/products/necklace.webp",
+      "hoverImage": "/products/necklace2.webp",
+      "temuLink": "https://temu.to/k/e4xrc9s2d4i",
+      "tags": ["necklace", "jewelry"]
+    },
+    {
+      "id": 4,
+      "title": "Basic Charm Necklace",
+      "description": "A simple necklace with a small charm, ideal for a subtle, everyday look.",
+      "defaultImage": "/products/necklace3.webp",
+      "hoverImage": "/products/necklace4.webp",
+      "temuLink": "https://temu.to/k/e66naxe4gec",
+      "tags": ["necklace", "jewelry"]
+    }
+  ]

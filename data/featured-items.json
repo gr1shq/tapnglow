@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Glowing Moon Lamp",
+      "description": "Illuminate your space with this stunning moon lamp for a cozy vibe.",
+      "image": "/img/moon-lamp.jpg",
+      "pinterestLink": "https://pinterest.com/tapnglow/glowing-treasures"
+    },
+    {
+      "id": 2,
+      "title": "Retro Cassette Dispenser",
+      "description": "Add retro flair to your desk with this vibrant tape dispenser.",
+      "image": "/img/cassette-dispenser.jpg",
+      "pinterestLink": "https://pinterest.com/tapnglow/vibrant-gadgets"
+    },
+    {
+      "id": 3,
+      "title": "Custom Neon Sign",
+      "description": "Brighten any room with a bold, glowing neon sign.",
+      "image": "/img/neon-sign.jpg",
+      "pinterestLink": "https://pinterest.com/tapnglow/glowing-treasures"
+    }
+  ]
