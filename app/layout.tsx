@@ -1,6 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from 'next';
 import { Poppins, Inter } from 'next/font/google';
+import Script from 'next/script'; // Import Script component
 import './globals.css';
 import Header from './(components)/Header';
 import Footer from './(components)/Footer';
@@ -46,6 +47,9 @@ export const metadata: Metadata = {
       'Shop curated, trendy products and read our blog at TapNGlow.',
     images: ['/og-image.jpg'],
   },
+  icons: {
+    icon: '/favicon.ico', // Favicon already handled here
+  },
 };
 
 export default function RootLayout({
@@ -58,6 +62,22 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${inter.variable} font-inter antialiased min-h-screen flex flex-col`}
       >
+        <link rel="icon" href="/favicon.ico"/>
+        {/* Google Analytics: Load gtag.js */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZM8TK4262M"
+          strategy="lazyOnload"
+          async
+        />
+        {/* Google Analytics: Inline configuration */}
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZM8TK4262M');
+          `}
+        </Script>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

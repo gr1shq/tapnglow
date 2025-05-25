@@ -34,5 +34,131 @@
       "hoverImage": "/products/necklace4.webp",
       "temuLink": "https://temu.to/k/e66naxe4gec",
       "tags": ["necklace", "jewelry"]
+    },
+    {
+        "id": 5,
+        "title": "Elegant Y-Necklace",
+        "description": "A stunning necklace with a Y shape, perfect for a glamorous look.",
+        "defaultImage": "/products/necklace5.webp",
+        "hoverImage": "/products/necklace6.webp",
+        "temuLink": "https://temu.to/k/ep0sgp0lopu",
+        "tags": ["necklace", "jewelry"]
+    },
+    {
+        "id": 6,
+        "title": "Stylish Waist Belt",
+        "description": "A versatile belt with a stylish design, perfect for a modern look.",
+        "defaultImage": "/products/waist-belt.webp",
+        "hoverImage": "/products/waist-belt2.webp",
+        "temuLink": "https://temu.to/k/exm2vi8bgpx",
+        "tags": ["belt", "accessory"]
+    },
+    {
+        "id": 7,
+        "title": "Oval Women Glasses",
+        "description": "A pair of glasses with an oval shape, perfect for a trendy look.",
+        "defaultImage": "/products/women-glasses.webp",
+        "hoverImage": "/products/women-glasses2.webp",
+        "temuLink": "https://temu.to/k/ehx25pfl0so",
+        "tags": ["glasses", "accessory"]
+    },
+    {
+        "id": 8,
+        "title": "Minimalist Long Sleeve T-Shirt",
+        "description": "A minimalistic t-shirt with a long sleeve, perfect for a stylish look.",
+        "defaultImage": "/products/women-tshirt.webp",
+        "hoverImage": "/products/women-tshirt2.webp",
+        "temuLink": "https://temu.to/k/e1noqanpy1y",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 9,
+        "title": "Elegant V-Neck Lace Trim Blouse",
+        "description": "A stunning blouse with a V-neck and lace trim, perfect for a glamorous look.",
+        "defaultImage": "/products/women-blouse.webp",
+        "hoverImage": "/products/women-blouse2.webp",
+        "temuLink": "https://temu.to/k/eq398fu7zvm",
+        "tags": ["blouse", "fashion", "accessory"]
+    },
+    {
+        "id": 10,
+        "title": "Spring and Summer Straight Pants",
+        "description": "Comfortable and stylish straight pants for a spring and summer look.",
+        "defaultImage": "/products/women-pants.webp",
+        "hoverImage": "/products/women-pants2.webp",
+        "temuLink": "https://temu.to/k/efcsutjn4qu",
+        "tags": ["pants", "fashion", "accessory"]
+    },
+    {
+        "id": 11,
+        "title": "Stylish Wide-leg Pants",
+        "description": "A pair of wide-leg pants with a trendy design, perfect for a modern look.",
+        "defaultImage": "/products/women-pants3.webp",
+        "hoverImage": "/products/women-pants4.webp",
+        "temuLink": "https://temu.to/k/ebpnh9cozyy",
+        "tags": ["pants", "fashion", "accessory"]
+    },
+    {
+        "id": 12,
+        "title": "Deep V-Neck Fitted T-shirt",
+        "description": "A fitted t-shirt with a deep V-neck, perfect for a stylish look.",
+        "defaultImage": "/products/women-tshirt3.webp",
+        "hoverImage": "/products/women-tshirt4.webp",
+        "temuLink": "https://temu.to/k/edaqh1h2k5q",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 13,
+        "title": "Off-shoulder Cropped T-shirt",
+        "description": "A cropped t-shirt with an off-shoulder design, perfect for a trendy look.",
+        "defaultImage": "/products/women-tshirt5.webp",
+        "hoverImage": "/products/women-tshirt6.webp",
+        "temuLink": "https://temu.to/k/eanyizuzwak",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 14,
+        "title": "Y2K Streetwear Crop Top",
+        "description": "A crop top with a Y2K-inspired design, perfect for a modern look.",
+        "defaultImage": "/products/women-tshirt7.webp",
+        "hoverImage": "/products/women-tshirt8.webp",
+        "temuLink": "https://temu.to/k/em4ngl7onb7",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 15,
+        "title": "Elegant Off-Shoulder Long Sleeve Crop Top",
+        "description": "A long sleeve crop top with an elegant off-shoulder design, perfect for a glamorous look.",
+        "defaultImage": "/products/women-tshirt9.webp",
+        "hoverImage": "/products/women-tshirt10.webp",
+        "temuLink": "https://temu.to/k/e1rhtqtyq0z",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 16,
+        "title": "Y2K Cropped Slim Fit T-Shirt",
+        "description": "A cropped t-shirt with a Y2K-inspired design, perfect for a trendy look.",
+        "defaultImage": "/products/women-tshirt11.webp",
+        "hoverImage": "/products/women-tshirt12.webp",
+        "temuLink": "https://temu.to/k/e0wk1yby4lq",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 17,
+        "title": "Y2K Graphic Crop Top",
+        "description": "A crop top with a Y2K-inspired design and a graphic print, perfect for a trendy look.",
+        "defaultImage": "/products/women-tshirt13.webp",
+        "hoverImage": "/products/women-tshirt14.webp",
+        "temuLink": "https://temu.to/k/e2h03jgozbo",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+    {
+        "id": 18,
+        "title": "Sleeveless V-Neck Bodysuit",
+        "description": "A sleeveless bodysuit with a V-neck design, perfect for a trendy look.",
+        "defaultImage": "/products/women-tshirt15.webp",
+        "hoverImage": "/products/women-tshirt16.webp",
+        "temuLink": "https://temu.to/k/e341ia9fvq4",
+        "tags": ["t-shirt", "fashion", "accessory"]
     }
   ]
