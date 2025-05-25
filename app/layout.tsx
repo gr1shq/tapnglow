@@ -1,7 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from 'next';
 import { Poppins, Inter } from 'next/font/google';
-import Script from 'next/script'; // Import Script component
+import Script from 'next/script';
 import './globals.css';
 import Header from './(components)/Header';
 import Footer from './(components)/Footer';
@@ -48,7 +48,21 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   icons: {
-    icon: '/favicon.ico', // Favicon already handled here
+    icon: '/favicon.ico', // Standard favicon for browser tabs
+    apple: '/apple-touch-icon.png', // iOS home screen icon
+    shortcut: '/favicon.ico', // Fallback for older browsers
+    other: [
+      {
+        rel: 'icon',
+        url: '/icon-192.png',
+        sizes: '192x192', // Android/PWA icon
+      },
+      {
+        rel: 'icon',
+        url: '/icon-512.png',
+        sizes: '512x512', // Larger PWA icon
+      },
+    ],
   },
 };
 
@@ -59,10 +73,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${poppins.variable} ${inter.variable} font-inter antialiased min-h-screen flex flex-col`}
       >
-        <link rel="icon" href="/favicon.ico"/>
         {/* Google Analytics: Load gtag.js */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZM8TK4262M"
