@@ -21,9 +21,13 @@ interface Product {
 // Type the imported JSON data
 const productList: Product[] = products;
 
+// Number of products to load initially and per "Load More"
+const PRODUCTS_PER_PAGE = 12;
+
 export default function Products() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCategory, setFilterCategory] = useState('All');
+  const [visibleProducts, setVisibleProducts] = useState(PRODUCTS_PER_PAGE);
 
   // Filter products by search term (title and description) and category (tags)
   const filteredProducts = productList.filter((product) => {
@@ -32,7 +36,7 @@ export default function Products() {
       product.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory =
       filterCategory === 'All' ||
-      (filterCategory === 'Room Decor' && product.tags.includes('lamp')) ||
+      (filterCategory === 'Room Decor' && product.tags.includes('room decor')) ||
       (filterCategory === 'Accessories' &&
         (product.tags.includes('bag') ||
          product.tags.includes('belt') ||
@@ -45,6 +49,15 @@ export default function Products() {
       (filterCategory === 'Pants' && product.tags.includes('pants'));
     return matchesSearch && matchesCategory;
   });
+
+  // Handle "Load More" click
+  const handleLoadMore = () => {
+    setVisibleProducts((prev) => prev + PRODUCTS_PER_PAGE);
+  };
+
+  // Slice products to display only up to visibleProducts
+  const displayedProducts = filteredProducts.slice(0, visibleProducts);
+  const hasMoreProducts = visibleProducts < filteredProducts.length;
 
   // Consolidated filter buttons
   const filterButtons = ['All', 'Room Decor', 'Accessories', 'Tops', 'Pants'];
@@ -85,8 +98,8 @@ export default function Products() {
         </div>
         {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map((product) => (
+          {displayedProducts.length > 0 ? (
+            displayedProducts.map((product) => (
               <motion.div
                 key={product.id}
                 initial={{ opacity: 0, y: 20 }}
@@ -108,6 +121,7 @@ export default function Products() {
                       width={400}
                       height={400}
                       className="w-full h-full object-contain group-hover:opacity-0 transition-opacity duration-300"
+                      loading='lazy'
                     />
                     <Image
                       src={product.hoverImage}
@@ -115,6 +129,7 @@ export default function Products() {
                       width={400}
                       height={400}
                       className="absolute top-0 left-0 w-full h-full object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                      loading='lazy'
                     />
                     <motion.div
                       className="absolute inset-0"
@@ -141,6 +156,19 @@ export default function Products() {
             </p>
           )}
         </div>
+        {/* Load More Button */}
+        {hasMoreProducts && (
+          <div className="text-center mt-8">
+            <motion.button
+              onClick={handleLoadMore}
+              className="px-6 py-3 text-sm font-poppins font-medium bg-[#F28C82] text-white rounded-full hover:bg-[#FFD1C1] hover:text-gray-900 transition-all duration-200"
+              whileTap={{ scale: 0.95 }}
+              aria-label="Load more products"
+            >
+              Load More
+            </motion.button>
+          </div>
+        )}
       </section>
     </div>
   );

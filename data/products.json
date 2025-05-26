@@ -160,5 +160,132 @@
         "hoverImage": "/products/women-tshirt16.webp",
         "temuLink": "https://temu.to/k/e341ia9fvq4",
         "tags": ["t-shirt", "fashion", "accessory"]
-    }
+    },
+    {
+        "id": 19,
+        "title": "Y2K Graphic Crop Top",
+        "description": "A crop top with a Y2K-inspired design and a graphic print, perfect for a trendy look.",
+        "defaultImage": "/products/y2k-outfit-lookbook.webp",
+        "hoverImage": "/products/y2k-outfit-lookbook-hover.webp",
+        "temuLink": "https://temu.to/k/eaddctbl4qx",
+        "tags": ["t-shirt", "fashion", "accessory"]
+    },
+
+    {
+        "id": 20,
+        "title": "Cherry-Shaped LED Neon Sign",
+        "description": "A neon sign with a cherry-shaped design, perfect for a vibrant look.",
+        "defaultImage": "/products-room/led-neonsign.webp",
+        "hoverImage": "/products-room/led-neonsign2.webp",
+        "temuLink": "https://temu.to/k/exipiaqyklj",
+        "tags": ["neon", "cherry", "sign", "cozy", "room decor"]
+      },
+      {
+        "id": 21,
+        "title": "Heart-Shaped Neon Light",
+        "description": "A neon light with a heart-shaped design, perfect for a romantic look.",
+        "defaultImage": "/products-room/led-neonsign3.webp",
+        "hoverImage": "/products-room/led-neonsign4.webp",
+        "temuLink": "https://temu.to/k/etpxankzzfi",
+        "tags": ["neon", "heart", "light", "coquette", "room decor"]
+      },
+      {
+        "id": 22,
+        "title": "Love Letter Neon Sign",
+        "description": "A neon sign with a love letter design, perfect for a romantic look.",
+        "defaultImage": "/products-room/led-neonsign6.webp",
+        "hoverImage": "/products-room/led-neonsign5.webp",
+        "temuLink": "https://temu.to/k/ejchh49cwcn",
+        "tags": ["neon", "love", "sign", "coquette", "room decor"]
+      },
+      {
+        "id": 23,
+        "title": "Curtain Fairy Lights",
+        "description": "A set of fairy lights for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/curtain-lights.webp",
+        "hoverImage": "/products-room/curtain-lights2.webp",
+        "temuLink": "https://temu.to/k/e7zhkt3hogo",
+        "tags": ["fairy", "lights", "curtain", "cozy", "room decor"]
+      },
+      {
+        "id": 24,
+        "title": "Projector Sunset Light",
+        "description": "A projector light for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/projector-light.webp",
+        "hoverImage": "/products-room/projector-light2.webp",
+        "temuLink": "https://temu.to/k/egrci5v8omx",
+        "tags": ["projector", "sunset", "light", "aesthetic", "room decor"]
+      },
+      {
+        "id": 25,
+        "title": "Star Projector Galaxy Light",
+        "description": "A projector light for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/projector-light3.webp",
+        "hoverImage": "/products-room/projector-light4.webp",
+        "temuLink": "https://temu.to/k/edp843qoo9v",
+        "tags": ["projector", "galaxy", "light", "cozy", "room decor"]
+      },
+      {
+        "id": 26,
+        "title": "Artificial Ivy Vine with LED",
+        "description": "A set of artificial ivy vines with LED lights for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/ivy-vines.webp",
+        "hoverImage": "/products-room/ivy-vines2.webp",
+        "temuLink": "https://temu.to/k/ecis3ptybhy",
+        "tags": ["ivy", "led", "vine", "nature", "room decor"]
+      },
+      {
+        "id": 27,
+        "title": "Photo Clip Decorative Light String",
+        "description": "A set of photo clip lights for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/photo-lights.webp",
+        "hoverImage": "/products-room/photo-lights2.webp",
+        "temuLink": "https://temu.to/k/egmld64v616",
+        "tags": ["photo", "lights", "clip", "cozy", "room decor"]
+      },
+      {
+        "id": 28,
+        "title": "Madison Beer Music Canvas Art Poster",
+        "description": "A frameless poster with a unique design perfect for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/music-canvas.webp",
+        "hoverImage": "/products-room/music-canvas2.webp",
+        "temuLink": "https://temu.to/k/eqa92dxt9vb",
+        "tags": ["poster", "canvas", "music", "aesthetic", "room decor"]
+      },
+      {
+        "id": 29,
+        "title": "Madison Beer Music Canvas Art Poster",
+        "description": "A frameless poster with a unique design perfect for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/music-canvas3.webp",
+        "hoverImage": "/products-room/music-canvas4.webp",
+        "temuLink": "https://temu.to/k/et5ki8kxnhy",
+        "tags": ["poster", "canvas", "music", "aesthetic", "room decor"]
+      },
+      {
+        "id": 30,
+        "title": "Billiard Number 8 Round Plush Carpet",
+        "description": "A plush carpet with a unique design perfect for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/carpet.webp",
+        "hoverImage": "/products-room/carpet2.webp",
+        "temuLink": "https://temu.to/k/el17j0iwjix",
+        "tags": ["carpet", "plush", "round", "cozy", "room decor"]
+      },
+      {
+        "id": 31,
+        "title": "Music Album Cover Canvas Wall Art Set",
+        "description": "A set of canvas wall art with a unique design perfect for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/canvas-art.webp",
+        "hoverImage": "/products-room/canvas-art2.webp",
+        "temuLink": "https://temu.to/k/epsemgumtwb",
+        "tags": ["canvas", "wall art", "music", "aesthetic", "room decor"]
+      },
+      {
+        "id": 32,
+        "title": "TV Series Painting",
+        "description": "A painting of a TV series with a unique design perfect for a cozy and romantic atmosphere.",
+        "defaultImage": "/products-room/canvas-art3.webp",
+        "hoverImage": "/products-room/canvas-art3.webp",
+        "temuLink": "https://temu.to/k/e12p49rxzsu",
+        "tags": ["painting", "canvas", "tv series", "aesthetic", "room decor"]
+      }
   ]
