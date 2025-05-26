@@ -11,7 +11,7 @@ export default function Footer() {
         { name: 'Home', href: '/' },
         { name: 'Products', href: '/products' },
         // { name: 'Categories', href: '/categories' },
-        // { name: 'Blog', href: '/blog' },
+        { name: 'Blog', href: '/blog' },
       ],
     },
     {
