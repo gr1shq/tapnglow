@@ -46,7 +46,13 @@ export default function Products() {
         (product.tags.includes('t-shirt') ||
          product.tags.includes('blouse') ||
          product.tags.includes('bodysuit'))) ||
-      (filterCategory === 'Pants' && product.tags.includes('pants'));
+      (filterCategory === 'Pants' && product.tags.includes('pants')) ||
+      (filterCategory === 'Beauty' &&
+        (product.tags.includes('nail stickers') ||
+         product.tags.includes('press-on nails') ||
+         product.tags.includes('nail polish') ||
+         product.tags.includes('nail wraps') ||
+         product.tags.includes('nail art')));
     return matchesSearch && matchesCategory;
   });
 
@@ -60,7 +66,8 @@ export default function Products() {
   const hasMoreProducts = visibleProducts < filteredProducts.length;
 
   // Consolidated filter buttons
-  const filterButtons = ['All', 'Room Decor', 'Accessories', 'Tops', 'Pants'];
+  const filterButtons = ['All', 'Room Decor', 'Accessories', 'Tops', 'Pants', 'Beauty'];
+
 
   return (
     <div className="bg-[#FFFFFF] min-h-screen">

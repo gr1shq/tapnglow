@@ -287,5 +287,77 @@
         "hoverImage": "/products-room/canvas-art3.webp",
         "temuLink": "https://temu.to/k/e12p49rxzsu",
         "tags": ["painting", "canvas", "tv series", "aesthetic", "room decor"]
+      },
+      {
+        "id": 33,
+        "title": "Almond-Shaped Artificial Nails",
+        "description": "A chic set of almond-shaped artificial nails for a Y2K-inspired manicure.",
+        "defaultImage": "/products/nails.webp",
+        "hoverImage": "/products/nails2.webp",
+        "temuLink": "https://temu.to/k/eg3hmp70397n",
+        "tags": ["nail art", "press-on nails", "almond-shaped", "beauty", "y2k", "coquette"]
+      },
+      {
+        "id": 34,
+        "title": "Teardrop-Shaped Wearable Nail Tips",
+        "description": "Elegant teardrop-shaped nail tips for a bold, Y2K nail look.",
+        "defaultImage": "/products/nails3.webp",
+        "hoverImage": "/products/nails4.webp",
+        "temuLink": "https://temu.to/k/eaqmarybngw",
+        "tags": ["nail art", "press-on nails", "teardrop", "beauty", "y2k", "maximalism"]
+      },
+      {
+        "id": 35,
+        "title": "Glossy Wine Red Press On Nails",
+        "description": "Glossy wine red press-on nails for a Cherry Coded, Y2K vibe.",
+        "defaultImage": "/products/nails5.webp",
+        "hoverImage": "/products/nails6.webp",
+        "temuLink": "https://temu.to/k/er7csy45jr9",
+        "tags": ["nail art", "press-on nails", "wine red", "beauty", "cherry coded", "y2k"]
+      },
+      {
+        "id": 36,
+        "title": "Almond Shaped Press-On Nails",
+        "description": "Classic almond-shaped press-on nails for a versatile Y2K manicure.",
+        "defaultImage": "/products/nails7.webp",
+        "hoverImage": "/products/nails8.webp",
+        "temuLink": "https://temu.to/k/e2b3lsgqofw",
+        "tags": ["nail art", "press-on nails", "almond", "beauty", "y2k", "coquette"]
+      },
+      {
+        "id": 37,
+        "title": "Blue Almond-Shaped Nail Tips",
+        "description": "Vibrant blue almond-shaped nail tips for a bold Y2K look.",
+        "defaultImage": "/products/nails9.webp",
+        "hoverImage": "/products/nails10.webp",
+        "temuLink": "https://temu.to/k/ed0o7s7i61s",
+        "tags": ["nail art", "press-on nails", "almond", "beauty", "y2k", "maximalism"]
+      },
+      {
+        "id": 38,
+        "title": "Silvery Mirror Almond Nail Plates",
+        "description": "Shiny silvery mirror almond nail plates for an Aura Beauty Y2K style.",
+        "defaultImage": "/products/nails11.webp",
+        "hoverImage": "/products/nails12.webp",
+        "temuLink": "https://temu.to/k/eo2c24ocro5",
+        "tags": ["nail art", "press-on nails", "almond", "beauty", "y2k", "aura"]
+      },
+      {
+        "id": 39,
+        "title": "Square Press-On Nails",
+        "description": "Trendy square press-on nails for a sleek Y2K manicure.",
+        "defaultImage": "/products/nails13.webp",
+        "hoverImage": "/products/nails14.webp",
+        "temuLink": "https://temu.to/k/edzcw68g46a",
+        "tags": ["nail art", "press-on nails", "square", "beauty", "y2k", "coquette"]
+      },
+      {
+        "id": 40,
+        "title": "Cute Bow Press-on Nail Sheets",
+        "description": "Adorable bow-designed press-on nails for a Coquette Y2K aesthetic.",
+        "defaultImage": "/products/nails15.webp",
+        "hoverImage": "/products/nails16.webp",
+        "temuLink": "https://temu.to/k/elsdkuq4xnl",
+        "tags": ["nail art", "press-on nails", "bow", "beauty", "y2k", "coquette"]
       }
   ]
